@@ -1,0 +1,97 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@visionarea-admin/auth": ["libs/backend/auth/src/index.ts"],
+      "@visionarea-admin/common": ["libs/backend/common/src/index.ts"],
+      "@visionarea-admin/frontend/authentication": [
+        "libs/frontend/authentication/src/index.js"
+      ],
+      "@visionarea-admin/frontend/pages/devices": [
+        "libs/frontend/pages/devices/src/index.js"
+      ],
+      "@visionarea-admin/frontend/pages/error": [
+        "libs/frontend/pages/error/src/index.js"
+      ],
+      "@visionarea-admin/frontend/shared/api": [
+        "libs/frontend/shared/api/src/index.js"
+      ],
+      "@visionarea-admin/frontend/shared/components/app-layout": [
+        "libs/frontend/shared/components/app-layout/src/index.js"
+      ],
+      "@visionarea-admin/frontend/shared/components/breadcrumbs": [
+        "libs/frontend/shared/components/breadcrumbs/src/index.js"
+      ],
+      "@visionarea-admin/frontend/shared/components/button-dropdown": [
+        "libs/frontend/shared/components/button-dropdown/src/index.js"
+      ],
+      "@visionarea-admin/frontend/shared/components/close-modal": [
+        "libs/frontend/shared/components/close-modal/src/index.js"
+      ],
+      "@visionarea-admin/frontend/shared/components/delete-modal": [
+        "libs/frontend/shared/components/delete-modal/src/index.js"
+      ],
+      "@visionarea-admin/frontend/shared/components/form": [
+        "libs/frontend/shared/components/form/src/index.js"
+      ],
+      "@visionarea-admin/frontend/shared/components/links": [
+        "libs/frontend/shared/components/links/src/index.js"
+      ],
+      "@visionarea-admin/frontend/shared/components/navigation": [
+        "libs/frontend/shared/components/navigation/src/index.js"
+      ],
+      "@visionarea-admin/frontend/shared/components/notifications": [
+        "libs/frontend/shared/components/notifications/src/index.js"
+      ],
+      "@visionarea-admin/frontend/shared/components/spinner": [
+        "libs/frontend/shared/components/spinner/src/index.js"
+      ],
+      "@visionarea-admin/frontend/shared/components/splash-screen": [
+        "libs/frontend/shared/components/splash-screen/src/index.js"
+      ],
+      "@visionarea-admin/frontend/shared/components/table": [
+        "libs/frontend/shared/components/table/src/index.js"
+      ],
+      "@visionarea-admin/frontend/shared/components/top-navigation": [
+        "libs/frontend/shared/components/top-navigation/src/index.js"
+      ],
+      "@visionarea-admin/frontend/shared/config": [
+        "libs/frontend/shared/config/src/index.js"
+      ],
+      "@visionarea-admin/frontend/shared/constant": [
+        "libs/frontend/shared/constant/src/index.js"
+      ],
+      "@visionarea-admin/frontend/shared/function": [
+        "libs/frontend/shared/function/src/index.js"
+      ],
+      "@visionarea-admin/frontend/shared/hooks": [
+        "libs/frontend/shared/hooks/src/index.js"
+      ],
+      "@visionarea-admin/frontend/shared/login-button": [
+        "libs/frontend/shared/components/login-button/src/index.js"
+      ],
+      "@visionarea-admin/prisma-client": [
+        "libs/backend/prisma-client/src/index.ts"
+      ],
+      "@visionarea-admin/queries": ["libs/backend/queries/src/index.ts"],
+      "@visionarea-admin/services": ["libs/backend/services/src/index.ts"],
+      "@visionarea-admin/token": ["libs/backend/token/src/index.ts"],
+      "@visionarea-admin/user": ["libs/backend/user/src/index.ts"],
+      "@visionarea-admin/utils": ["libs/backend/utils/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
